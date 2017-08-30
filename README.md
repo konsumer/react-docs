@@ -1,3 +1,7 @@
+## NOT READY
+
+Still putting together ideas
+
 # react-docs
 
 Generate documentation object for exported react components.

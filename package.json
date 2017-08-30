@@ -1,15 +1,22 @@
 {
   "name": "react-docs",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Generate documentation object for exported react components.",
   "main": "index.js",
-  "module": "src/index.js",
   "scripts": {
     "test": "standard && jest --coverage",
     "prepublish": "babel src/index.js > index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/konsumer/react-docs.git"
+  },
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/react-docs/issues"
+  },
+  "homepage": "https://github.com/konsumer/react-docs#readme",
   "babel": {
     "presets": [
       "env"
