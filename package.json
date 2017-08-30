@@ -1,0 +1,28 @@
+{
+  "name": "react-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "standard && jest --coverage",
+    "prepublish": "babel src/index.js > index.js"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "acorn": "^5.1.1",
+    "acorn-jsx": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4",
+    "standard": "^10.0.3"
+  }
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`react-docs should handle PureComponent in ES6 1`] = `undefined`;
+
+exports[`react-docs should handle a stateless component in ES5 exported 1`] = `undefined`;
+
+exports[`react-docs should handle a stateless component in ES6 1`] = `undefined`;
+
+exports[`react-docs should handle component in ES6 1`] = `undefined`;
+
+exports[`react-docs should handle createReactClass in ES5 1`] = `undefined`;
+
+exports[`react-docs should handle stateless component in ES5 exported as default 1`] = `undefined`;
